@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_drawable"
+    tools:context=".User_login">
+<ImageView
+    android:id="@+id/loginlogo"
+    android:layout_width="wrap_content"
+    android:layout_height="250sp"
+    android:src="@drawable/gts_corporation_start_logo"
+    android:layout_margin="50sp"
+    android:layout_alignParentTop="true"/>
+<LinearLayout
+    android:layout_below="@id/loginlogo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="45sp"
+        android:layout_marginRight="45sp"
+        android:background="@color/boxcolor"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50sp"
+        android:paddingLeft="20sp"
+        android:hint="USERNAME"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="45sp"
+        android:layout_marginRight="45sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/boxcolor"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50sp"
+        android:paddingLeft="20sp"
+        android:hint="PASSWORD"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textColor="@color/startcolor"
+        android:background="@color/white"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        />
+</LinearLayout>
+</RelativeLayout>

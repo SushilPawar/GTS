@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home" android:title="Profile"
+        android:icon="@drawable/gts_corporation_menu_profile_icon"></item>
+
+
+    <item android:id="@+id/cases" android:icon="@drawable/gts_corporation_menu_cases_icon"
+        android:title="Cases"></item>
+
+    <item android:id="@+id/support" android:icon="@drawable/gts_corporation_menu_support_icon"
+        android:title="Support"></item>
+
+    <item android:id="@+id/logout" android:icon="@drawable/gts_corporation_menu_logout_icon"
+        android:title="Logout"></item>
+
+</menu>
